@@ -176,4 +176,6 @@ MIT License — free to use and modify
 
 Created as part of **Tuần 7 Assignment**
 
+Video demo: https://youtu.be/XTcu5D0od4o
+
 **Last Updated:** December 2025
